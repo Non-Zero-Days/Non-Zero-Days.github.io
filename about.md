@@ -44,6 +44,9 @@ Motivation comes in different forms for different people. For myself, doing some
 [<img align="left" alt="Node.js" width="26px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/node-dot-js.svg" />][node-demo]
 [<img align="left" alt="Visual Studio Code" width="26px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/visualstudiocode.svg" />][chorehelper-demo]
 
+<br/>
+<br/>
+
 [non-zero-days-gh-organization]: https://github.com/Non-Zero-Days
 [non-zero-days-gh-pages]: https://non-zero-days.github.io/
 [boredtweak-gh]: https://github.com/BoredTweak
