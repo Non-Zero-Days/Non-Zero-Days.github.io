@@ -4,38 +4,127 @@
 
 ### Posts
 
-*Aug 14, 2021* - [.NET 6 Minimal APIs](net-6-minimal-api.md)
 
-*Aug 1, 2021* - [Clean Architecture](clean-architecture.md)
+[.NET 6 Minimal APIs](net-6-minimal-api.md)
+*Posted Aug 14, 2021*
 
-*Jul 18, 2021* - [C# Unit Testing](csharp-unit-tests.md)
+.NET 6 comes with a new template for C# WebAPIs which is much more minimal. This exercise walks through setting up some endpoints in that template without using controllers. **[Read More](net-6-minimal-api.md)**
 
-*Jul 4, 2021* - [Docker Compose](docker-compose.md)
 
-*Jun 20, 2021* - [Flyway](flyway.md)
+[Clean Architecture](clean-architecture.md)
+*Posted Aug 1, 2021*
 
-*Jun 6, 2021* - [Angular Proxy Services](angular-proxy-services.md)
+Learn how to structure C# code per the Clean Architecture.
+**[Read More](clean-architecture.md)**
 
-*May 23, 2021* - [Angular](./angular.md)
 
-*May 9, 2021* - [Postgres](postgres.md)
+[C# Unit Testing](csharp-unit-tests.md)
+*Posted Jul 18, 2021*
 
-*Apr 25, 2021* - [GitHub Actions](github-actions.md)
+Learn about the unit testing framework in .NET and identify scenarios worth unit testing.
+**[Read More](csharp-unit-tests.md)**
 
-*Apr 11, 2021* - [C# WebAPI](dotnet-csharp-webapi.md)
 
-*Mar 30, 2021* - [Docker](docker.md)
+[Docker Compose](docker-compose.md)
+*Posted Jul 4, 2021*
 
-*Mar 28, 2021* - [C# Console Application](csharp-console.md)
+Play with docker-compose and orchestrate multiple container images.
+**[Read More](docker-compose.md)**
 
-*Mar 14, 2021* - [Flask](basic-flask.md)
 
-*Feb 28, 2021* - [GitHub CLI](github-cli.md)
+[Flyway](flyway.md)
+*Posted Jun 20, 2021*
 
-*Feb 14, 2021* - [Git Workflows](git-workflows.md)
+Implement and iterate on a database schema using Flyway.
+**[Read More](flyway.md)**
 
-*Jan 31, 2021* - [Introducing Python](basic-python.md)
 
-*Jan 17, 2021* - [Visual Studio Code](vs-code.md)
+[Angular Proxy Services](angular-proxy-services.md)
+*Posted Jun 6, 2021*
 
-*Jan 3, 2021* - [A Valid First Website](simple-html.md)
+Make an HTTP call to our .NET application from our Angular application.
+**[Read More](angular-proxy-services.md)**
+
+
+[Angular](./angular.md)
+*Posted May 23, 2021*
+
+Create a new Angular application.
+**[Read More](angular.md)**
+
+
+[Postgres](postgres.md)
+*Posted May 9, 2021*
+
+Create a Postgres server and database.
+**[Read More](postgres.md)**
+
+
+[GitHub Actions](github-actions.md)
+*Posted Apr 25, 2021*
+
+Set up continuous integration in GitHub.
+**[Read More](github-actions.md)**
+
+
+[C# WebAPI](dotnet-csharp-webapi.md)
+*Posted Apr 11, 2021*
+
+Play with C# and create a WebAPI application.
+**[Read More](dotnet-csharp-webapi.md)**
+
+
+[Docker](docker.md)
+*Posted Mar 30, 2021*
+
+Play with Docker.
+**[Read More](docker.md)**
+
+
+[C# Console Application](csharp-console.md)
+*Posted Mar 28, 2021*
+
+Play with C# and create a console application.
+**[Read More](csharp-console.md)**
+
+
+[Flask](basic-flask.md)
+*Posted Mar 14, 2021*
+
+Gain basic familiarity with Flask and get exposure to HTTP concepts.
+**[Read More](basic-flask.md)**
+
+
+[GitHub CLI](github-cli.md)
+*Posted Feb 28, 2021*
+
+Gain familiarity with GitHub CLI and related workflows.
+**[Read More](github-cli.md)**
+
+
+[Git Workflows](git-workflows.md)
+*Posted Feb 14, 2021*
+
+Gain familiarity with basic workflows in Git and GitHub.
+**[Read More](git-workflows.md)**
+
+
+[Introducing Python](basic-python.md)
+*Posted Jan 31, 2021*
+
+Gain familiarity with basic commands in Python.
+**[Read More](basic-python.md)**
+
+
+[Visual Studio Code](vs-code.md)
+*Posted Jan 17, 2021*
+
+Gain familiarity with basic workflows in Visual Studio Code.
+**[Read More](vs-code.md)**
+
+
+[A Valid First Website](valid-first-website.md)
+*Posted Jan 3, 2021*
+
+Create a website with HTML, CSS and JavaScript.
+**[Read More](valid-first-website.md)**

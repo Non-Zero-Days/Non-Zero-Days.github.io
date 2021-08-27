@@ -1,6 +1,6 @@
 [Home](README.md)
 
-## Simple HTML
+## A Valid First Website
 
 ### Prerequisites:
 Today's prerequisites will include notepad and an internet browser such as chrome or edge.
