@@ -1,14 +1,6 @@
-## Angular
+[Home](README.md)
 
-  - [Prerequisites:](#prerequisites)
-  - [Loose Agenda:](#loose-agenda)
-  - [Step by Step](#step-by-step)
-    - [Create a New Angular Application](#create-a-new-angular-application)
-    - [Directory Structure](#directory-structure)
-    - [Find the Entry Point](#find-the-entry-point)
-    - [Implement a Common Page Layout](#implement-a-common-page-layout)
-    - [Add Bootstrap](#add-bootstrap)
-  - [Additional Resources](#additional-resources)
+## Angular
 
 ### Prerequisites:
 
