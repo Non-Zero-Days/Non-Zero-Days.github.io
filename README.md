@@ -1,6 +1,8 @@
 ## Welcome to Non-Zero Days
 
-[About](about.md)
+### [Check out the Non-Zero Days Youtube!](https://www.youtube.com/channel/UCT0hVofKq8CM8k8QBiUmpOw)
+
+### [About Me](about.md)
 
 ### Posts
 
@@ -9,13 +11,14 @@
 *Posted Aug 14, 2021*
 
 .NET 6 comes with a new template for C# WebAPIs which is much more minimal. This exercise walks through setting up some endpoints in that template without using controllers. **[Read More](net-6-minimal-api.md)**
-
+<br/>
 
 [Clean Architecture](clean-architecture.md)
 *Posted Aug 1, 2021*
 
 Learn how to structure C# code per the Clean Architecture.
 **[Read More](clean-architecture.md)**
+<br/>
 
 
 [C# Unit Testing](csharp-unit-tests.md)
@@ -23,6 +26,7 @@ Learn how to structure C# code per the Clean Architecture.
 
 Learn about the unit testing framework in .NET and identify scenarios worth unit testing.
 **[Read More](csharp-unit-tests.md)**
+<br/>
 
 
 [Docker Compose](docker-compose.md)
@@ -30,6 +34,7 @@ Learn about the unit testing framework in .NET and identify scenarios worth unit
 
 Play with docker-compose and orchestrate multiple container images.
 **[Read More](docker-compose.md)**
+<br/>
 
 
 [Flyway](flyway.md)
@@ -37,6 +42,7 @@ Play with docker-compose and orchestrate multiple container images.
 
 Implement and iterate on a database schema using Flyway.
 **[Read More](flyway.md)**
+<br/>
 
 
 [Angular Proxy Services](angular-proxy-services.md)
@@ -44,6 +50,7 @@ Implement and iterate on a database schema using Flyway.
 
 Make an HTTP call to our .NET application from our Angular application.
 **[Read More](angular-proxy-services.md)**
+<br/>
 
 
 [Angular](./angular.md)
@@ -51,6 +58,7 @@ Make an HTTP call to our .NET application from our Angular application.
 
 Create a new Angular application.
 **[Read More](angular.md)**
+<br/>
 
 
 [Postgres](postgres.md)
@@ -58,6 +66,7 @@ Create a new Angular application.
 
 Create a Postgres server and database.
 **[Read More](postgres.md)**
+<br/>
 
 
 [GitHub Actions](github-actions.md)
@@ -65,6 +74,7 @@ Create a Postgres server and database.
 
 Set up continuous integration in GitHub.
 **[Read More](github-actions.md)**
+<br/>
 
 
 [C# WebAPI](dotnet-csharp-webapi.md)
@@ -72,6 +82,7 @@ Set up continuous integration in GitHub.
 
 Play with C# and create a WebAPI application.
 **[Read More](dotnet-csharp-webapi.md)**
+<br/>
 
 
 [Docker](docker.md)
@@ -79,6 +90,7 @@ Play with C# and create a WebAPI application.
 
 Play with Docker.
 **[Read More](docker.md)**
+<br/>
 
 
 [C# Console Application](csharp-console.md)
@@ -86,6 +98,7 @@ Play with Docker.
 
 Play with C# and create a console application.
 **[Read More](csharp-console.md)**
+<br/>
 
 
 [Flask](basic-flask.md)
@@ -93,6 +106,7 @@ Play with C# and create a console application.
 
 Gain basic familiarity with Flask and get exposure to HTTP concepts.
 **[Read More](basic-flask.md)**
+<br/>
 
 
 [GitHub CLI](github-cli.md)
@@ -100,6 +114,7 @@ Gain basic familiarity with Flask and get exposure to HTTP concepts.
 
 Gain familiarity with GitHub CLI and related workflows.
 **[Read More](github-cli.md)**
+<br/>
 
 
 [Git Workflows](git-workflows.md)
@@ -107,6 +122,7 @@ Gain familiarity with GitHub CLI and related workflows.
 
 Gain familiarity with basic workflows in Git and GitHub.
 **[Read More](git-workflows.md)**
+<br/>
 
 
 [Introducing Python](basic-python.md)
@@ -114,6 +130,7 @@ Gain familiarity with basic workflows in Git and GitHub.
 
 Gain familiarity with basic commands in Python.
 **[Read More](basic-python.md)**
+<br/>
 
 
 [Visual Studio Code](vs-code.md)
@@ -121,6 +138,7 @@ Gain familiarity with basic commands in Python.
 
 Gain familiarity with basic workflows in Visual Studio Code.
 **[Read More](vs-code.md)**
+<br/>
 
 
 [A Valid First Website](valid-first-website.md)
@@ -128,3 +146,4 @@ Gain familiarity with basic workflows in Visual Studio Code.
 
 Create a website with HTML, CSS and JavaScript.
 **[Read More](valid-first-website.md)**
+<br/>
