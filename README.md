@@ -1,37 +1,22 @@
-## Welcome to GitHub Pages
+## Welcome to Non-Zero Days
 
-You can use the [editor on GitHub](https://github.com/Non-Zero-Days/Non-Zero-Days.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+I'm a self-taught, professional software engineer. Working towards feeling competent in tech without a mentor was difficult. There is a lot of information out there and everyone has a different perspective of the "correct way to do things." In order to get started I had to learn how to learn. This lead me to the concept of non-zero days. A non-zero day is a day you spend at least 15 minutes learning.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Motivation comes in different forms for different people. For myself, doing something for 15 minutes each day was more productive than long bursts followed by long breaks. These posts aim to serve someone with a similar short-burst style of motivation. 
 
-### Markdown
+### Links
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+| Link |
+| - |
+| [YouTube](https://www.youtube.com/channel/UCT0hVofKq8CM8k8QBiUmpOw) |
+| [GitHub Organization](https://github.com/Non-Zero-Days) |
+| [GitHub Pages](https://non-zero-days.github.io/) |
+| [BoredTweak's GitHub](https://github.com/BoredTweak) |
+| [Twitter](https://twitter.com/BoredTweak) |
+| [LinkedIn](https://www.linkedin.com/in/alex-elia/) |
 
-```markdown
-Syntax highlighted code block
+### Posts
 
-# Header 1
-## Header 2
-### Header 3
+- [.NET 6 Minimal APIs](net-6-minimal-api.md)
+- [Angular](./angular.md)
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Non-Zero-Days/Non-Zero-Days.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
