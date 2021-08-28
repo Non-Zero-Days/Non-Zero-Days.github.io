@@ -1,3 +1,10 @@
+---
+layout: default
+title: Home
+nav_order: 1
+description: "Non-Zero Days Home"
+permalink: /
+---
 
 ### [Check out the Non-Zero Days Youtube!](https://www.youtube.com/channel/UCT0hVofKq8CM8k8QBiUmpOw)
 
