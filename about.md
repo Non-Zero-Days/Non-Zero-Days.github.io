@@ -15,8 +15,6 @@ nav_order: 1
 - 💬 Ask me about learning how to [self](https://www.youtube.com/channel/UCT0hVofKq8CM8k8QBiUmpOw)-[teach](https://github.com/Non-Zero-Days) [programming](https://github.com/BoredTweak/Exercises)!
 - 😄 Pronouns: he/him/his
 
-## About Me
-
 I'm a self-taught, professional software engineer. Working towards feeling competent in tech without a mentor was difficult. There is a lot of information out there and everyone has a different perspective of the "correct way to do things." In order to get started I had to learn how to learn. This lead me to the concept of non-zero days. A non-zero day is a day you spend at least 15 minutes learning.
 
 Motivation comes in different forms for different people. For myself, doing something for 15 minutes each day was more productive than long bursts followed by long breaks. These posts aim to serve someone with a similar short-burst style of motivation. 

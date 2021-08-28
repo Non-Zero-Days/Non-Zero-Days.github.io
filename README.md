@@ -6,9 +6,7 @@ description: "Non-Zero Days Home"
 permalink: /
 ---
 
-### [Check out the Non-Zero Days Youtube!](https://www.youtube.com/channel/UCT0hVofKq8CM8k8QBiUmpOw)
-
-### [About Me](about.md)
+## [Check out the Non-Zero Days Youtube!](https://www.youtube.com/channel/UCT0hVofKq8CM8k8QBiUmpOw)
 
 ### Posts
 
