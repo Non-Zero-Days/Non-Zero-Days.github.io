@@ -1,4 +1,7 @@
-
+---
+layout: default
+nav_order: 2
+---
 
 ## Angular Proxy Services
 

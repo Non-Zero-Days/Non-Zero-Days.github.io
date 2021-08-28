@@ -1,4 +1,7 @@
-
+---
+layout: default
+nav_order: 2
+---
 
 ## .NET 6 Minimal API
 
