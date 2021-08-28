@@ -1,7 +1,6 @@
 ---
-Title: About
-category: about
-order: 1
+layout: page
+title: About
 ---
 
 [Home](README.md)
