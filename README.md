@@ -1,4 +1,8 @@
-## Welcome to Non-Zero Days
+---
+Title: Home
+category: home
+order: 1
+---
 
 ### [Check out the Non-Zero Days Youtube!](https://www.youtube.com/channel/UCT0hVofKq8CM8k8QBiUmpOw)
 
