@@ -2,3 +2,13 @@ theme: just-the-docs
 title: Non-Zero Days
 description: GitHub Pages for Non-Zero-Days
 remote_theme: pmarsceill/just-the-docs
+
+# Aux links for the upper right navigation
+aux_links:
+  "Non-Zero Days on Youtube":
+    - "//www.youtube.com/channel/UCT0hVofKq8CM8k8QBiUmpOw"
+  "Non-Zero Days on GitHub":
+    - "//github.com/Non-Zero-Days"
+
+# Makes Aux links open in a new tab. Default is false
+aux_links_new_tab: true
