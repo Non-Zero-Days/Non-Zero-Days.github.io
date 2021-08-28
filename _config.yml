@@ -1,3 +1,4 @@
 theme: just-the-docs
 title: Non-Zero Days
 description: GitHub Pages for Non-Zero-Days
+remote_theme: pmarsceill/just-the-docs
