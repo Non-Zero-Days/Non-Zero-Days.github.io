@@ -1,7 +1,6 @@
 ---
-Title: Home
-category: home
-order: 1
+layout: page
+title: Home
 ---
 
 # Non-Zero Days
