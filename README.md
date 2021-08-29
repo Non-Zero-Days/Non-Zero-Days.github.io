@@ -12,7 +12,6 @@ permalink: /
 *Posted Aug 29, 2021*
 
 Learn about the Moq unit testing framework in .NET
-Learn about the Moq unit testing framework in .NET
 **[Read More](moq-unit-tests.md)**
 <br/>
 
