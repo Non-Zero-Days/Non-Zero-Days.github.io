@@ -2,6 +2,7 @@
 layout: default
 title: Non-Zero Days
 nav_order: 1
+permalink: /
 ---
 
 ### Posts
