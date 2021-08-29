@@ -1,9 +1,7 @@
 ---
 layout: default
-title: Home
+title: Non-Zero Days
 nav_order: 1
-description: "Non-Zero Days Home"
-permalink: /
 ---
 
 ### Posts
