@@ -13,7 +13,7 @@ permalink: /
 
 Learn about the Moq unit testing framework in .NET
 Learn about the Moq unit testing framework in .NET
-**[READ MORE](moq-unit-tests.md)**
+**[Read More](moq-unit-tests.md)**
 <br/>
 
 [.NET 6 Minimal APIs](net-6-minimal-api.md)
