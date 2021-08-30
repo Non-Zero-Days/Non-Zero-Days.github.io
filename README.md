@@ -7,6 +7,11 @@ permalink: /
 
 ### Posts
 
+{% for post in posts %}
+{{ post.title }}
+*Posted {{ post.date }}*
+{% endfor %}
+
 [Moq Unit Testing](moq-unit-tests.md)
 *Posted Aug 29, 2021*
 
