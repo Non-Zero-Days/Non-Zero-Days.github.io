@@ -15,6 +15,7 @@ aux_links_new_tab: true
 
 footer_content: "Congrats on a Non-Zero Day!"
 
-posts:
-  - title: Moq Unit Testing
-    date: Aug 29, 2021
+collections:
+  posts:
+    - title: Moq Unit Testing
+      date: Aug 29, 2021
