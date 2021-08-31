@@ -7,7 +7,7 @@ permalink: /
 
 ### Posts
 
-{% for post in collections.posts %}
+{% for post in site.posts %}
 {{ post.title }}
 *Posted {{ post.date }}*
 {% endfor %}
