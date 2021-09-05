@@ -1,6 +1,8 @@
 ---
 layout: post
 nav_order: 2
+excerpt_separator: <!--more-->
+excerpt: Set up continuous integration in GitHub.
 ---
 
 ## GitHub Actions

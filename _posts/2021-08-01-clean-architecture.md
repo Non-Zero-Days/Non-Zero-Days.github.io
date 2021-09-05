@@ -1,6 +1,8 @@
 ---
 layout: post
 nav_order: 2
+excerpt_separator: <!--more-->
+excerpt: Learn how to structure C# code per the Clean Architecture.
 ---
 
 ## C# Clean Architecture

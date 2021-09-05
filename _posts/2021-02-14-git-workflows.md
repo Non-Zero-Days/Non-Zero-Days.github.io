@@ -1,6 +1,8 @@
 ---
 layout: post
 nav_order: 2
+excerpt_separator: <!--more-->
+excerpt: Gain familiarity with basic workflows in Git and GitHub.
 ---
 
 # Git Workflows
