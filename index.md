@@ -21,7 +21,7 @@ permalink: /
 ## Debugging
 
 {% for pages in site.html_pages %}
-    {% for pages in pages %}
+    {% for page in pages %}
         {% page.title %}
     {% endfor %}
 {% endfor %}
