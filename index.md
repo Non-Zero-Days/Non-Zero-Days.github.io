@@ -16,4 +16,6 @@ permalink: /
 
 {{ post.excerpt }} **[Read More]({{ post.url }})**
 
+**[Watch the Video]({{ post.youtube_link }})**
+
 {% endfor %}
