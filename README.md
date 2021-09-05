@@ -9,17 +9,10 @@ permalink: /
 
 {% for post in site.posts %}
 [{{ post.title }}]({{ post.url }})
-*Posted {{ post.date }}*
+*Posted {{ post.date | date: '%B %d, %Y' }}*
 
 {{ post.excerpt }}
 {% endfor %}
-
-[Moq Unit Testing](moq-unit-tests.md)
-*Posted Aug 29, 2021*
-
-Learn about the Moq unit testing framework in .NET
-**[Read More](moq-unit-tests.md)**
-<br/>
 
 [.NET 6 Minimal APIs](net-6-minimal-api.md)
 *Posted Aug 14, 2021*
