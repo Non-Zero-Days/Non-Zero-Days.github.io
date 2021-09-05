@@ -20,8 +20,8 @@ permalink: /
 
 ## Debugging
 
-{%- for item in site.html_pages -%}
+{% for item in site.html_pages %}
 
-{% item %}
+{% item.title %}
 
 {% endfor %}
