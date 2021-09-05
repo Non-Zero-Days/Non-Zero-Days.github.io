@@ -8,8 +8,10 @@ permalink: /
 ### Posts
 
 {% for post in site.posts %}
-{{ post.title }}
+[{{ post.title }}]({{ post.url }})
 *Posted {{ post.date }}*
+
+{{ post.excerpt }}
 {% endfor %}
 
 [Moq Unit Testing](moq-unit-tests.md)
