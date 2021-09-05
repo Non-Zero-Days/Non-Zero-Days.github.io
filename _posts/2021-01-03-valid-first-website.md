@@ -1,7 +1,6 @@
 ---
 layout: post
 nav_order: 2
-excerpt_separator: <!--more-->
 excerpt: Create a website with HTML, CSS and JavaScript.
 ---
 

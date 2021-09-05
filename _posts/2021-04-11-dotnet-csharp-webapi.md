@@ -2,7 +2,6 @@
 layout: post
 title: C# WebAPI
 nav_order: 2
-excerpt_separator: <!--more-->
 excerpt: Play with C# and create a WebAPI application.
 ---
 

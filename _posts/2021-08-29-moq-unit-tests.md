@@ -1,7 +1,6 @@
 ---
 layout: default
 nav_order: 2
-excerpt_separator: <!--more-->
 excerpt: Learn about the Moq unit testing framework in .NET
 ---
 

@@ -1,7 +1,6 @@
 ---
 layout: post
 nav_order: 2
-excerpt_separator: <!--more-->
 excerpt: Make an HTTP call to our .NET application from our Angular application.
 ---
 

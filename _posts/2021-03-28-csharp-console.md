@@ -2,7 +2,6 @@
 layout: post
 nav_order: 2
 title: C# Console Application
-excerpt_separator: <!--more-->
 excerpt: Play with C# and create a console application.
 ---
 

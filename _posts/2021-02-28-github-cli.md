@@ -1,7 +1,6 @@
 ---
 layout: post
 nav_order: 2
-excerpt_separator: <!--more-->
 excerpt: Gain familiarity with GitHub CLI and related workflows.
 ---
 
