@@ -1,6 +1,7 @@
 theme: just-the-docs
 title: Non-Zero Days
-description: GitHub Pages for Non-Zero-Days
+description: Short demonstrations to help learn about technologies
+logo: "/assets/images/logo.png"
 remote_theme: pmarsceill/just-the-docs
 
 # Aux links for the upper right navigation
