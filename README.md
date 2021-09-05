@@ -11,6 +11,6 @@ permalink: /
 [{{ post.title }}]({{ post.url }})
 *Posted {{ post.date | date: '%B %d, %Y' }}*
 
-{{ post.excerpt }}
-</br>
+{{ post.excerpt }} **[Read More]({{ post.url }})**
+
 {% endfor %}
