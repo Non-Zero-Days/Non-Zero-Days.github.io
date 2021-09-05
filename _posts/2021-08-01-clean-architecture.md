@@ -4,21 +4,21 @@ nav_order: 2
 excerpt: Learn how to structure C# code per the Clean Architecture.
 ---
 
-## C# Clean Architecture
+# C# Clean Architecture
 
-### Prerequisites:
+## Prerequisites
 
-[.NET 5.0](https://dotnet.microsoft.com/download/dotnet/5.0)
-[Visual Studio Code](https://code.visualstudio.com/)
+- [.NET 5.0](https://dotnet.microsoft.com/download/dotnet/5.0)
+- [Visual Studio Code](https://code.visualstudio.com/)
 
-### Loose Agenda:
+## Loose Agenda
 Learn how to structure C# code per the Clean Architecture
 
-### Step by Step
+## Step by Step
 
 Create a directory for today's exercise and navigate to it in a terminal instance.
 
-#### Single project
+### Single project
 
 Create a new webapi project via `dotnet new webapi -o src`
 
@@ -225,15 +225,15 @@ Try the POST endpoint with the body
 Now try the GET endpoint with `nonzero` as note the result succeeds.
 
 
-#### Project Per Layer
+### Project Per Layer
 
 If you instead wanted to implement this solution with projects as a boundary you could split Core and Infrastructure into their own csproj files. In the end you would have `src`, `src.Core`, and `src.Infrastructure` projects. The `src` project would reference `src.Core` and `src.Infrastructure`. The `src.Infrastructure` project would reference `src.Core`. This might be the prefered approach for larger solutions.
 
 Congratulations on a non-zero day!
 
 
-### Additional Documentation
+## Additional Resources
 
-[Clean Coding](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
-[Clean Architecture](https://docs.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/common-web-application-architectures#clean-architecture)
+- [Clean Coding](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
+- [Clean Architecture](https://docs.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/common-web-application-architectures#clean-architecture)
 

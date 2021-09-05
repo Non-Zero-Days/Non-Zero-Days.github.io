@@ -4,23 +4,21 @@ nav_order: 2
 excerpt: Make an HTTP call to our .NET application from our Angular application.
 ---
 
-## Angular Proxy Services
+# Angular Proxy Services
 
-### Prerequisites:
+## Prerequisites
 
 - [Node.js](https://nodejs.org/en/download/)
-
 - [Visual Studio Code](https://code.visualstudio.com/)
-
 - [.NET 5.0](https://dotnet.microsoft.com/download/dotnet/5.0)
 
-### Loose Agenda:
+## Loose Agenda
 
 Make an HTTP call to our .NET application from our Angular application
 
-### Step by Step
+## Step by Step
 
-#### Clone .NET application
+### Clone .NET application
 
 We'll be leveraging [code from the .NET WebAPI video](https://github.com/Non-Zero-Days/dotnet-csharp-webapi) for today's exercise.
 
@@ -33,7 +31,7 @@ code .
 
 This will clone the WebAPI files locally, open a developer environment to the code, and start the application. 
 
-#### Add CORS policy to .NET application
+### Add CORS policy to .NET application
 
 To simplify the interactions with the .NET application we will open the CORS policy to any origin and we will remove the defaulted behavior of HTTPS redirection. More details on CORS is available in [Additional Resources](#additional-resources). Note that this is not a claim of best practices, but more to separate concerns for our learning objectives.
 
@@ -67,7 +65,7 @@ In the terminal instance for the dotnet-csharp-webapi directory, run
 dotnet run
 ```
 
-#### Clone and Start Angular application
+### Clone and Start Angular application
 
 We'll also be leveraging [code from the Angular video](https://github.com/Non-Zero-Days/angular) for today's exercise.
 
@@ -82,7 +80,7 @@ ng serve
 
 This will clone the Angular files locally, start the developer environment, and run the application
 
-#### Create a Proxy Service in Angular
+### Create a Proxy Service in Angular
 
 Open a terminal instance to the Angular directory and run the following command to generate a service
 
@@ -136,7 +134,7 @@ Add a new function to the ProxyService as follows:
 Make certain that Observable is imported from rxjs at the top of the file like ```import { Observable } from 'rxjs';```
 
 
-#### Use the Proxy Service
+### Use the Proxy Service
 
 In app.component.ts add a new motd string variable ```motd: string = '';```.  
 
@@ -174,7 +172,7 @@ Note that you can use the PUT endpoint on [the .NET swagger page](http://localho
 
 Congratulations on a non-zero day!
 
-### Additional Resources
+## Additional Resources
 
 - [.NET CORS Documentation](https://docs.microsoft.com/en-us/aspnet/core/security/cors?view=aspnetcore-5.0)
 - [Angular HttpClient](https://angular.io/api/common/http/HttpClient)

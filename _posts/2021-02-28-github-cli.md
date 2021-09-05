@@ -6,15 +6,16 @@ excerpt: Gain familiarity with GitHub CLI and related workflows.
 
 # GitHub CLI
 
-## Prerequisites:
+## Prerequisites
+
 - Install [Git SCM](https://git-scm.com/downloads)
 - Install [GitHub CLI](https://cli.github.com/)
 
-## Loose Agenda:
+## Loose Agenda
+
 - Gain familiarity with GitHub CLI and related workflows
 
-## GitHub CLI Step by Step
-
+## Step by Step
 
 ### Create a repository
 

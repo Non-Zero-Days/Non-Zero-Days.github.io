@@ -5,24 +5,24 @@ title: C# Unit Tests
 excerpt: Learn about the unit testing framework in .NET and identify scenarios worth unit testing.
 ---
 
-## C# Unit Tests
+# C# Unit Tests
 
 *A unit test attempts to verify the functionality of a single unit of work. Given a class method with inputs and measurable outputs a unit test aims to verify the correctness of part of the method without peeking into private state management such as a database.*
 
-### Prerequisites:
+## Prerequisites
 
-[.NET 5.0](https://dotnet.microsoft.com/download/dotnet/5.0)
-[Visual Studio Code](https://code.visualstudio.com/)
-    *Note - C# extension from Microsoft helps*
+- [.NET 5.0](https://dotnet.microsoft.com/download/dotnet/5.0)
+- [Visual Studio Code](https://code.visualstudio.com/)
+  - *Note - C# extension from Microsoft helps*
 
-### Loose Agenda:
+## Loose Agenda
 Learn about the unit testing framework in .NET
 
 Identify scenarios worth unit testing
 
-### Step by Step
+## Step by Step
 
-#### Setup testing framework
+### Setup testing framework
 
 Create a directory for today's exercise and navigate to it in a terminal instance.
 
@@ -30,7 +30,7 @@ Create a new .NET unit test project in it's own directory by running `dotnet new
 
 Open Visual Studio Code to the root directory.
 
-#### Create a test
+### Create a test
 
 In VS Code, open `test/UnitTest1.cs`.
 
@@ -51,7 +51,7 @@ test.UnitTest1.TestMethod1:
 Total tests: 1. Passed: 1. Failed: 0. Skipped: 0
 ```
 
-#### Make Testable Code
+### Make Testable Code
 
 Open the terminal instance in the root directory once again. 
 
@@ -67,7 +67,7 @@ public string PrependNonZero(string input)
 }
 ```
 
-#### Arrange Act Assert
+### Arrange Act Assert
 
 In Visual Studio Code let's navigate back to UnitTest1.cs and write a test for our Class1 method.
 
@@ -160,7 +160,7 @@ Now you've written some tests.
 Congratulations on a non-zero day!
 
 
-### Additional Documentation
+## Additional Resources
 
 - [Clean Architecture](https://docs.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/common-web-application-architectures#clean-architecture)
 - [Unit Testing Library](https://docs.microsoft.com/en-us/dotnet/api/microsoft.visualstudio.testtools.unittesting)

@@ -4,23 +4,23 @@ nav_order: 2
 excerpt: Learn about the Moq unit testing framework in .NET
 ---
 
-## C# Moq Unit Tests
+# C# Moq Unit Tests
 
 *A unit test attempts to verify the functionality of a single unit of work. Given a class method with inputs and measurable outputs a unit test aims to verify the correctness of part of the method without peeking into private state management such as a database.*
 
-### Prerequisites:
+## Prerequisites
 
-[.NET 5.0](https://dotnet.microsoft.com/download/dotnet/5.0)
-[Visual Studio 2022 Preview](https://visualstudio.microsoft.com/vs/preview/vs2022//)
+- [.NET 5.0](https://dotnet.microsoft.com/download/dotnet/5.0)
+- [Visual Studio 2022 Preview](https://visualstudio.microsoft.com/vs/preview/vs2022//)
 
-### Loose Agenda:
+## Loose Agenda
+
 Learn about the Moq unit testing framework in .NET
-
 Identify scenarios worth unit testing
 
-### Step by Step
+## Step by Step
 
-#### Setup testing framework
+### Setup testing framework
 
 Create a directory for today's exercise and navigate to it in a terminal instance.
 
@@ -40,7 +40,7 @@ Add a reference to Moq to the test.csproj by running `dotnet add test/test.cspro
 
 Now let's open our solution in Visual Studio 2022 Preview.
 
-#### Create a test without Moq
+### Create a test without Moq
 
 In Visual Studio, open `test/UnitTest1.cs`
 
@@ -74,7 +74,7 @@ public void ContactService_Create_Throws_InvalidOperationException_For_NullInput
 
 Open `View > Test Explorer` or press `Ctrl+E`, `T` on the keyboard to open the Test Explorer window. Run all tests in this window and note that the test should succeed.
 
-#### Create a test with Moq
+### Create a test with Moq
 
 Note that in the previous steps we created a test but required a dependency on the exact implementation details of infrastructure code (the ContactRepository.) If this repository was connected to a database then we would have potential to actually call the database. In the spirit of only testing a single unit of work, we want to replace the specific infrastructure implementation with a mocked implementation of the infrastructure contract. 
 
@@ -96,7 +96,7 @@ public void ContactService_Create_Throws_InvalidOperationException_For_NullInput
 
 Note that we've removed the need for the using declaration `using src.Infrastructure;` and instead have `using Moq;`
 
-#### Moq Setup
+### Moq Setup
 
 For the immediate our ContactService.Retrieve method just forwards the call to our Repository. Let's create a new test method to verify that the result from the repository is returned through the service. In order to do this we will need to use Moq's Setup method.
 
@@ -157,7 +157,7 @@ public void ContactService_Retrieve_Returns_Contact_From_Repository()
 }
 ```
 
-#### Verify a dependency call
+### Verify a dependency call
 
 In the above test we expect that the repository Retrieve method is being called and mock behavior accordingly. If we wanted to additionally check that this method is called as many times as we expect then we can do so in the Act section with Verify. Let's change our `ContactService_Retrieve_Returns_Contact_From_Repository` code to the following.
 
@@ -191,7 +191,7 @@ public void ContactService_Retrieve_Returns_Contact_From_Repository()
 
 Running this test now verifies that the Retrieve method is only called once. Note that if we change the `Times.Once` to `Times.Exactly(3)` then the test will fail.
 
-### Additional Documentation
+## Additional Resources
 
 - [Moq Quickstart](https://github.com/Moq/moq4/wiki/Quickstart)
 - [Unit Testing Library](https://docs.microsoft.com/en-us/dotnet/api/microsoft.visualstudio.testtools.unittesting)

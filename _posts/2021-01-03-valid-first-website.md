@@ -4,17 +4,21 @@ nav_order: 2
 excerpt: Create a website with HTML, CSS and JavaScript.
 ---
 
-## A Valid First Website
+# A Valid First Website
 
-### Prerequisites:
-Today's prerequisites will include notepad and an internet browser such as chrome or edge.
+## Prerequisites
 
-### Loose Agenda:
+- Text Editor (such as Notepad)
+- Internet Browser (such as Chrome or Edge)
+
+## Loose Agenda
+
 Create a simple website layout with HTML
 Apply styling to our website via CSS
 Apply bootstrap CSS styling to our website
 
-### Step by Step
+## Step by Step
+
 Create a directory to store this exercise in
 
 Open Notepad and enter the following code
@@ -143,6 +147,7 @@ Change the class of our submit control to "btn btn-primary" and view the results
 Congratulations on a non-zero day!
 
 
-### Resources
+## Additional Resources
+
 - [Bootstrap - Getting Started](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
 - [HTML Living Spec](https://html.spec.whatwg.org/)

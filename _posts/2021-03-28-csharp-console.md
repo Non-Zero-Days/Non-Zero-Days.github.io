@@ -5,22 +5,20 @@ title: C# Console Application
 excerpt: Play with C# and create a console application.
 ---
 
-## .NET C# Console Application
+# .NET C# Console Application
 
-### Prerequisites:
+## Prerequisites
 
-Install [.NET 5.0](https://dotnet.microsoft.com/download/dotnet/5.0)
+- Install [.NET 5.0](https://dotnet.microsoft.com/download/dotnet/5.0)
+- Install [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/)
 
-Install [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/)
-
-
-### Loose Agenda:
+## Loose Agenda
 
 Play with C# and create a console application
 
-### Step by Step
+## Step by Step
 
-#### Setup playground
+### Setup playground
 
 Create a directory for this exercise
 
@@ -34,7 +32,7 @@ Solution Name: Leave default
 
 Click Create
 
-#### Printing Output
+### Printing Output
 
 You should now be in the templated project with Program.cs open. Note the files listed in the Solution Explorer window. This code is already written to print output so let's compile and run the code.
 
@@ -61,7 +59,7 @@ Replace it with the following text
 Save and close the file then repeat this step.
 
 
-#### User Input
+### User Input
 
 The default generated code for the Main method takes in an array of strings as an argument. Currently we do nothing with this input. Let's instead use it as an output.
 
@@ -85,7 +83,7 @@ In Application arguments let's write the following:
 Now you can run the code again and see the output matches what we put in the Application arguments field.
 
 
-#### Conditional If
+### Conditional If
 
 In the event that our code didn't have an argument we would have received an error. Let's write an if statement to block for that condition.
 
@@ -107,7 +105,7 @@ Replace your Main method with the following code:
 Run the code with and without Application arguments and note the different messages.
 
 
-#### For Loop
+### For Loop
 
 In the event that multiple arguments were submit to the program, only the first would be displayed. Test this by replacing your Application arguments with the following then running the code:
 ```
@@ -136,7 +134,7 @@ Replace your Main method with the following code:
 
 Run the code again and note that each argument is output.
 
-#### File Input
+### File Input
 
 Let's now use text files instead of Application arguments.
 
@@ -163,7 +161,7 @@ Open Program.cs and replace with Main method with:
 
 Run the program and see that the result should now be the contents of the test.txt file.
 
-#### File Output
+### File Output
 
 Open Program.cs and replace with Main method with:
 ```

@@ -4,24 +4,23 @@ nav_order: 2
 excerpt: Play with docker-compose and orchestrate multiple container images.
 ---
 
-## Docker Compose
+# Docker Compose
 
-### Prerequisites:
+## Prerequisites
 
-[Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
+- [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
+- [Visual Studio Code](https://code.visualstudio.com/)
 
-[Visual Studio Code](https://code.visualstudio.com/)
 
-
-### Loose Agenda:
+## Loose Agenda
 
 Play with docker-compose
 Orchestrate multiple container images
 
 
-### Step by Step
+## Step by Step
 
-#### Single image example
+### Single image example
 
 In a playground directory, create a new file named ```docker-compose.yml``` and enter the following text
 
@@ -49,7 +48,7 @@ GET day
 
 Run `docker-compose down` in the terminal instance to shut down and clean up the containers.
 
-#### Single Dockerfile example
+### Single Dockerfile example
 
 In the playground directory, create a new file named `Dockerfile` and enter the following text
 ```
@@ -78,7 +77,7 @@ GET day
 
 In the terminal instance let's clean up with ` docker-compose -f docker-compose-dockerfile.yml down` 
 
-#### Volume mounting with Postgres and PgAdmin
+### Volume mounting with Postgres and PgAdmin
 
 Now let's play with Postgres and Docker-Compose.
 
@@ -145,7 +144,7 @@ Navigate to [http://localhost:5431/browser/](http://localhost:5431/browser/) and
 
 Run `docker compose -f docker-compose-postgres.yml down` to shut down and clean up our containers. 
 
-#### Image coordination with Flyway against Postgres
+### Image coordination with Flyway against Postgres
 
 Let's add Flyway to our Postgres Docker-Compose definition.
 
@@ -216,7 +215,7 @@ Navigate to [http://localhost:5431/browser/](http://localhost:5431/browser/) and
 
 Run `docker compose -f docker-compose-postgres.yml down` to shut down and clean up our containers. 
 
-#### Health Checking
+### Health Checking
 
 Note the retries occuring in the Flyway container defined in the previous section. We eventually reach the desired state due to the connectRetries argument in the Flyway container. We can also do this with health checks.
 
@@ -277,7 +276,7 @@ Running `docker compose -f docker-compose-postgres.yml up` will now show the fly
 
 Congratulations on a non-zero day!
 
-### Documentation
+## Additional Resources
 - [Docker Compose](https://docs.docker.com/compose/)
 - [Dockerfile](https://docs.docker.com/engine/reference/builder/)
 - [PgAdmin Docker Hub](https://hub.docker.com/r/dpage/pgadmin4/)

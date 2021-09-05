@@ -6,15 +6,17 @@ excerpt: Gain familiarity with basic workflows in Git and GitHub.
 
 # Git Workflows
 
-## Prerequisites:
+## Prerequisites
+
 - Install [Git SCM](https://git-scm.com/downloads)
 - Install [GitHub CLI](https://cli.github.com/)
 
-## Loose Agenda:
+## Loose Agenda
+
 - Gain familiarity with basic workflows in Git and GitHub
 - Identify difference between Git and GitHub
 
-## GitHub Portal Step by Step
+## Step by Step
 
 ### Create a repository
 

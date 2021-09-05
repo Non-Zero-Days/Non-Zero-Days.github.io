@@ -5,22 +5,20 @@ nav_order: 2
 excerpt: Play with C# and create a WebAPI application.
 ---
 
-## C# WebAPI
+# C# WebAPI
 
-### Prerequisites:
+## Prerequisites
 
-Install [.NET 5.0](https://dotnet.microsoft.com/download/dotnet/5.0)
+- Install [.NET 5.0](https://dotnet.microsoft.com/download/dotnet/5.0)
+- Install [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/)
 
-Install [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/)
-
-### Loose Agenda:
+## Loose Agenda
 
 Play with C# and create a WebAPI application
 
+## Step by Step
 
-### Step by Step
-
-#### Setup playground
+### Setup playground
 
 Create a directory for this exercise
 
@@ -40,7 +38,7 @@ On the right make certain that 'Configure for HTTPS' and 'Enable OpenAPI support
 
 Click Create
 
-#### Exploring the default template
+### Exploring the default template
 
 The ASP.NET Core 5.0 Web API template implements a single GET endpoint with service discoverability/documentation implemented via Swagger. 
 Note and review the following files:
@@ -60,7 +58,7 @@ Navigate to 'https://localhost:5001/swagger/index.html' then note the GET /Weath
 Stop Debugging by typing Shift+F5 in Visual Studio
 
 
-#### Creating a GET endpoint
+### Creating a GET endpoint
 
 Right-click the Controllers folder and select Add > New Item... 
 Search for and select API Controller - Empty
@@ -114,7 +112,7 @@ Note the Response Body includes our expected string.
 Stop Debugging by typing Shift+F5 in Visual Studio
 
 
-#### ConcurrentDictionary
+### ConcurrentDictionary
 
 Let's implement a dictionary in our code that can be called into and adjusted at runtime.
 
@@ -203,7 +201,7 @@ Now if we run our code and call the endpoint we will see "No motd entered."
 Let's add a way to adjust that message of the day next.
 
 
-#### Creating a PUT endpoint
+### Creating a PUT endpoint
 
 We want a way to enter or edit the message of the day without having to update the code. Let's create a PUT endpoint to accomplish this.
 **Note - Some developers use the POST HTTP action for this goal. I suggest being pragmatic by being consistent within your projects with your own decisions for what verb to use.**
@@ -253,7 +251,8 @@ Now if you run your code and navigate to 'https://localhost:5001/swagger/index.h
 - Stop then restart debugging and note that the value has not persisted between debug sessions.
 
 
-## Additional Reading
+## Additional Resources
+
 - [Dependency Injection in .NET](https://docs.microsoft.com/en-us/dotnet/core/extensions/dependency-injection-usage)
 - [SOLID Principles](https://en.wikipedia.org/wiki/SOLID)
 
