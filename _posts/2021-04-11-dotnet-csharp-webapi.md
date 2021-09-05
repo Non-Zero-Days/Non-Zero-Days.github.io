@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: C# WebAPI
 nav_order: 2
 ---
