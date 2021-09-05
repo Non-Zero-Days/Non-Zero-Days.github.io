@@ -2,9 +2,12 @@
 layout: post
 nav_order: 2
 excerpt: Create a website with HTML, CSS and JavaScript.
+youtube_link: https://youtu.be/yGE2j48QUXs
 ---
 
 # A Valid First Website
+
+**Watch the video [here][{{ youtube_link }}]**
 
 ## Prerequisites
 
