@@ -3,9 +3,12 @@ layout: post
 nav_order: 2
 title: C# Unit Tests
 excerpt: Learn about the unit testing framework in .NET and identify scenarios worth unit testing.
+youtube_link: https://youtu.be/LQ9LSIVi9Ys
 ---
 
 # C# Unit Tests
+
+**Watch the video [here]({{ page.youtube_link }})**
 
 *A unit test attempts to verify the functionality of a single unit of work. Given a class method with inputs and measurable outputs a unit test aims to verify the correctness of part of the method without peeking into private state management such as a database.*
 

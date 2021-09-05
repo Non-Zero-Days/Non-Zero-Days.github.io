@@ -2,9 +2,12 @@
 layout: post
 nav_order: 2
 excerpt: Play with docker-compose and orchestrate multiple container images.
+youtube_link: https://youtu.be/IfHlJsCsPI0
 ---
 
 # Docker Compose
+
+**Watch the video [here]({{ page.youtube_link }})**
 
 ## Prerequisites
 

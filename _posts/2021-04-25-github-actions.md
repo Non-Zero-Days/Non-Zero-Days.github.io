@@ -2,9 +2,12 @@
 layout: post
 nav_order: 2
 excerpt: Set up continuous integration in GitHub.
+youtube_link: https://youtu.be/uxzvaHjjaY4
 ---
 
 # GitHub Actions
+
+**Watch the video [here]({{ page.youtube_link }})**
 
 ## Prerequisites
 

@@ -2,9 +2,12 @@
 layout: post
 nav_order: 2
 excerpt: Gain familiarity with GitHub CLI and related workflows.
+youtube_link: https://youtu.be/qU9L3H7QiTk
 ---
 
 # GitHub CLI
+
+**Watch the video [here]({{ page.youtube_link }})**
 
 ## Prerequisites
 

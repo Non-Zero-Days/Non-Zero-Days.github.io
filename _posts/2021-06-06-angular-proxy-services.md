@@ -2,9 +2,12 @@
 layout: post
 nav_order: 2
 excerpt: Make an HTTP call to our .NET application from our Angular application.
+youtube_link: https://youtu.be/DN5pIuWkots
 ---
 
 # Angular Proxy Services
+
+**Watch the video [here]({{ page.youtube_link }})**
 
 ## Prerequisites
 

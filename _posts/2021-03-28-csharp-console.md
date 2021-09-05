@@ -3,9 +3,12 @@ layout: post
 nav_order: 2
 title: C# Console Application
 excerpt: Play with C# and create a console application.
+youtube_link: https://youtu.be/MwHphVmu9nM
 ---
 
 # .NET C# Console Application
+
+**Watch the video [here]({{ page.youtube_link }})**
 
 ## Prerequisites
 

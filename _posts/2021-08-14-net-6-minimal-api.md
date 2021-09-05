@@ -3,9 +3,12 @@ layout: default
 nav_order: 2
 title: .NET 6 Minimal APIs
 excerpt: .NET 6 comes with a new template for C# WebAPIs which is much more minimal. This exercise walks through setting up some endpoints in that template without using controllers.
+youtube_link: https://youtu.be/toEi5bd26jY
 ---
 
 # .NET 6 Minimal API
+
+**Watch the video [here]({{ page.youtube_link }})**
 
 *.NET 6 comes with a new template for C# WebAPIs which is much more minimal. This exercise walks through setting up some endpoints in that template without using controllers.*
 

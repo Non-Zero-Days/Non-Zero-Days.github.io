@@ -3,9 +3,12 @@ layout: post
 title: C# WebAPI
 nav_order: 2
 excerpt: Play with C# and create a WebAPI application.
+youtube_link: https://youtu.be/hxBssdb7pQY
 ---
 
 # C# WebAPI
+
+**Watch the video [here]({{ page.youtube_link }})**
 
 ## Prerequisites
 

@@ -2,9 +2,12 @@
 layout: post
 nav_order: 2
 excerpt: Learn how to structure C# code per the Clean Architecture.
+youtube_link: https://youtu.be/rHfNqEaQb2g
 ---
 
 # C# Clean Architecture
+
+**Watch the video [here]({{ page.youtube_link }})**
 
 ## Prerequisites
 

@@ -2,9 +2,12 @@
 layout: post
 nav_order: 2
 excerpt: Gain familiarity with basic workflows in Git and GitHub.
+youtube_link: https://youtu.be/jo-E6n5LRkI
 ---
 
 # Git Workflows
+
+**Watch the video [here]({{ page.youtube_link }})**
 
 ## Prerequisites
 

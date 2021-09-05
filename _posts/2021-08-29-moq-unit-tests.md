@@ -2,9 +2,12 @@
 layout: default
 nav_order: 2
 excerpt: Learn about the Moq unit testing framework in .NET
+youtube_link: https://youtu.be/gKu9CNGpq6U
 ---
 
 # C# Moq Unit Tests
+
+**Watch the video [here]({{ page.youtube_link }})**
 
 *A unit test attempts to verify the functionality of a single unit of work. Given a class method with inputs and measurable outputs a unit test aims to verify the correctness of part of the method without peeking into private state management such as a database.*
 
