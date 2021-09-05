@@ -1,6 +1,7 @@
 ---
 layout: post
 nav_order: 2
+title: C# Unit Tests
 excerpt_separator: <!--more-->
 excerpt: Learn about the unit testing framework in .NET and identify scenarios worth unit testing.
 ---
