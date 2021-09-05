@@ -7,7 +7,7 @@ youtube_link: https://youtu.be/yGE2j48QUXs
 
 # A Valid First Website
 
-**Watch the video [here][{{ youtube_link }}]**
+**Watch the video [here]({{ page.youtube_link }})**
 
 ## Prerequisites
 
