@@ -20,10 +20,4 @@ permalink: /
 
 ## Debugging
 
-{%- assign pages_array = '' | split: '' -%}
-{%- assign pages_array = pages_array | push: site.html_pages -%}
-{%- for pages in pages_array -%}
-  {%- for page in pages -%}
-        {%- page.title -%}
-    {%- endfor -%}
-{%- endfor -%}
+{% site.html_pages %}
