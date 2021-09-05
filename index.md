@@ -17,3 +17,11 @@ permalink: /
 {{ post.excerpt }} **[Read More]({{ post.url }})**
 
 {% endfor %}
+
+## Debug
+
+{% for page in site.html_pages %}
+
+{{ page }} 
+
+{% endfor %}
