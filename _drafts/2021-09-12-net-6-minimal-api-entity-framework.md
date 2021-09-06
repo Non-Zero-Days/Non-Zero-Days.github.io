@@ -1,18 +1,25 @@
-## .NET 6 Minimal API Entity Framework
+---
+layout: post
+nav_order: 2
+excerpt: Introduce CRUD repositories with EF Core in .NET 6 preview 7.
+youtube_link: https://youtu.be/JJtYaK54T0Q
+---
 
-### Prerequisites:
+# .NET 6 Minimal API Entity Framework
 
-[.NET 6.0](https://dotnet.microsoft.com/download/dotnet/6.0)
-[Visual Studio Code](https://code.visualstudio.com/)
-[Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
+## Prerequisites
 
-### Loose Agenda:
+- [.NET 6.0](https://dotnet.microsoft.com/download/dotnet/6.0)
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
 
-Introduce CRUD repositories with EF Core in .NET 6 preview 7
+## Loose Agenda
 
-### Step by Step
+- Introduce CRUD repositories with EF Core in .NET 6 preview 7
 
-#### Procure a Database
+## Step by Step
+
+### Procure a Database
 
 We're going to need a database for today's efforts, so lets leverage an existing docker compose definition to procure ourselves a postgres instance. 
 
@@ -20,19 +27,19 @@ I've prepared a docker compose definition at the [Non-Zero Days wiki-toxicity-da
 
 Clone down that repository, navigate to it in a terminal and run `docker compose up -d` to obtain our database.
 
-#### Setup Playground
+### Setup Playground
 
 Next, let's create a directory for today's exercise and navigate to it in a terminal instance.
 
-#### Install EF dotnet CLI tools
+### Install EF dotnet CLI tools
 
 In order to scaffold the database (generate Entity Framework code) in the webapi project you must first install the Entity Framework .NET CLI tools. `dotnet tool install --global dotnet-ef`
 
-#### Spin up a new application
+### Spin up a new application
 
 Run `dotnet new webapi` then open the directory in Visual Studio Code.
 
-#### Initialize User Secrets
+### Initialize User Secrets
 
 In order to configure our local development environment to connect to the database, we need to run the following
 
@@ -41,7 +48,7 @@ dotnet user-secrets init
 dotnet user-secrets set ConnectionStrings:ToxicityDb "Username=docker;Password=docker;Host=host.docker.internal;Database=toxicity;"
 ```
 
-#### Add NuGet Packages
+### Add NuGet Packages
 
 The following commands will add some necessary dependencies for data access with EF and Postgres.
 
@@ -50,7 +57,7 @@ dotnet add .\net-6-ef.csproj package Microsoft.EntityFrameworkCore.Design
 dotnet add .\net-6-ef.csproj package Npgsql.EntityFrameworkCore.PostgreSQL
 ```
 
-#### Scaffold Database Access
+### Scaffold Database Access
 
 Now we can generate the Entity Framework code.
 
@@ -58,7 +65,7 @@ Now we can generate the Entity Framework code.
 dotnet ef dbcontext scaffold "Server=localhost;Database=toxicity;Port=5432;Username=docker;Password=docker;" Npgsql.EntityFrameworkCore.PostgreSQL --output-dir "Infrastructure"
 ```
 
-#### Configure Program.cs
+### Configure Program.cs
 
 We'll start by grabbing our configured connection string and adding the DbContext with that configuration.
 
@@ -81,7 +88,7 @@ app.UseAuthorization();
 app.MapControllers();
 ```
 
-#### Expose Data Access GET
+### Expose Data Access GET
 
 Now we can add an endpoint. Just above `app.Run();` let's add the following code:
 ```C#
@@ -92,7 +99,7 @@ app.MapGet("/toxicity", async (toxicityContext _dbContext) => {
 
 Now let's run the application via `dotnet run` and navigate to [https://localhost:5001/toxicity](https://localhost:5001/toxicity) to see the data from our database.
 
-#### Expose Data Access POST
+### Expose Data Access POST
 
 For a POST endpoint we'll add a paramter to the RequestDelegate for the body of the request and we'll call AddAsync:
 ```C#
@@ -103,7 +110,7 @@ app.MapPost("/toxicity", async (toxicityContext _dbContext, ToxicityAnnotation i
 });
 ```
 
-#### Expose Data Access PUT
+### Expose Data Access PUT
 
 PUT is traditionally an idempotent save, therefore we'll check if an entity exists before doing an add or an update.
 ```C#
@@ -123,7 +130,7 @@ app.MapPut("/toxicity", async (toxicityContext _dbContext, ToxicityAnnotation in
 });
 ```
 
-#### Expose Data Access DELETE
+### Expose Data Access DELETE
 
 DELETE will check if the entity exists and remove it if it does
 ```C#
@@ -142,7 +149,7 @@ app.MapDelete("/toxicity", async (toxicityContext _dbContext, decimal revId, dec
 
 Let's run the application via `dotnet run` and navigate to [Swagger](https://localhost:5001/swagger) to play with our endpoints.
 
-## Additional Documentation
+## Additional Resources
 
 - [.NET Preview 7 Announcement](https://devblogs.microsoft.com/aspnet/asp-net-core-updates-in-net-6-preview-7/)
 - [Entity Framework SaveChangesAsync](https://docs.microsoft.com/en-us/dotnet/api/system.data.entity.dbcontext.savechangesasync)
