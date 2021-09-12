@@ -1,6 +1,7 @@
 ---
 layout: post
 nav_order: 2
+title: .NET 6 Minimal API Entity Framework 
 excerpt: Introduce CRUD repositories with EF Core in .NET 6 preview 7.
 youtube_link: https://youtu.be/JJtYaK54T0Q
 ---
