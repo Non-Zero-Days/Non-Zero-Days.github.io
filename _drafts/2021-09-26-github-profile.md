@@ -120,7 +120,7 @@ For our badge above we can create the following:
 [linkedin]: https://www.linkedin.com/in/alex-elia/
 ```
 
-**Note that I used </br> to add some spacing around the image based on the height of the images in mobiel and desktop view. You can instead use <a> tags around the <img> though you cannot use reference links if you go this route.**
+**Note that I used </br> to add some spacing around the image based on the height of the images in mobile and desktop view. You can instead use <a> tags around the <img> though you cannot use reference links if you go this route.**
 
 ### Languages and Tools
 
