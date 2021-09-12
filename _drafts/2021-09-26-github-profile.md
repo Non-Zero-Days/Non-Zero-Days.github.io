@@ -2,7 +2,7 @@
 layout: post
 nav_order: 2
 excerpt: Summary
-youtube_link: Youtube-Link.link
+youtube_link: https://www.youtube.com/watch?v=8r2WPypJTR0
 ---
 
 # GitHub Profile
