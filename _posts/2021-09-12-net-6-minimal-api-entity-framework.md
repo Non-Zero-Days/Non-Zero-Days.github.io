@@ -7,6 +7,8 @@ youtube_link: https://youtu.be/JJtYaK54T0Q
 
 # .NET 6 Minimal API Entity Framework
 
+**Watch the video [here]({{ page.youtube_link }})**
+
 ## Prerequisites
 
 - [.NET 6.0](https://dotnet.microsoft.com/download/dotnet/6.0)
