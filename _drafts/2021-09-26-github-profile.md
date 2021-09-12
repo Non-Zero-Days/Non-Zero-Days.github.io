@@ -16,7 +16,7 @@ youtube_link: Youtube-Link.link
 
 ## Loose Agenda
 
-- Create a GitHub profile which introduces ourselves to a viewer
+- Create a GitHub profile README which introduces ourselves
 
 ## Step by Step
 
