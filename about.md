@@ -17,13 +17,13 @@ nav_order: 2
 
 ## Connect with me
 
-[![BoredTweak | Email](https://img.shields.io/badge/BoredTweak%20%7C%20Email-EA4335?style=flat-square&logo=gmail&logoColor=white)][email]
+[![BoredTweak - Email](https://img.shields.io/badge/BoredTweak%20%7C%20Email-EA4335?style=flat-square&logo=gmail&logoColor=white)][email]
 
-[![BoredTweak | YouTube](https://img.shields.io/badge/BoredTweak%20%7C%20YouTube-FF0000?style=flat-square&logo=youtube&logoColor=white)][youtube]
+[![BoredTweak - YouTube](https://img.shields.io/badge/BoredTweak%20%7C%20YouTube-FF0000?style=flat-square&logo=youtube&logoColor=white)][youtube]
 
-[![BoredTweak | Twitter](https://img.shields.io/badge/BoredTweak%20%7C%20Twitter-1DA1F2?style=flat-square&logo=twitter&logoColor=white)][twitter]
+[![BoredTweak - Twitter](https://img.shields.io/badge/BoredTweak%20%7C%20Twitter-1DA1F2?style=flat-square&logo=twitter&logoColor=white)][twitter]
 
-[![BoredTweak | LinkedIn](https://img.shields.io/badge/BoredTweak%20%7C%20LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)][linkedin]
+[![BoredTweak - LinkedIn](https://img.shields.io/badge/BoredTweak%20%7C%20LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)][linkedin]
 
 ## Languages and Tools
 
