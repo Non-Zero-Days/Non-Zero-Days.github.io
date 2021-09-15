@@ -17,3 +17,7 @@ aux_links_new_tab: true
 footer_content: "Congrats on a Non-Zero Day!"
 search_enabled: false
 color_scheme: dark
+
+# Google Analytics Tracking
+ga_tracking: G-F5W82J1WFE
+ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (true/nil by default)
