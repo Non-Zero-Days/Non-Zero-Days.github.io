@@ -18,16 +18,12 @@ nav_order: 2
 ## Connect with me
 
 [<img align="left" alt="BoredTweak | Email" width="150px" height="20px" src="https://img.shields.io/badge/BoredTweak%20%7C%20Email-EA4335?style=flat-square&logo=gmail&logoColor=white" />][email]
-</br>
 
 [<img align="left" alt="BoredTweak | YouTube" width="150px" height="20px" src="https://img.shields.io/badge/BoredTweak%20%7C%20YouTube-FF0000?style=flat-square&logo=youtube&logoColor=white" />][youtube]
-</br>
 
 [<img align="left" alt="BoredTweak | Twitter" width="150px" height="20px" src="https://img.shields.io/badge/BoredTweak%20%7C%20Twitter-1DA1F2?style=flat-square&logo=twitter&logoColor=white" />][twitter]
-</br>
 
 [<img align="left" alt="BoredTweak | LinkedIn" width="150px" height="20px" src="https://img.shields.io/badge/BoredTweak%20%7C%20LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" />][linkedin]
-</br>
 
 ## Languages and Tools
 
@@ -43,11 +39,6 @@ nav_order: 2
 [<img align="left" alt="JavaScript" height="20px" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white" />][js-demo]
 [<img align="left" alt="Node.js" height="20px" src="https://img.shields.io/badge/Node.JS-339933?style=flat-square&logo=nodedotjs&logoColor=white" />][node-demo]
 [<img align="left" alt="Visual Studio Code" height="20px" src="https://img.shields.io/badge/Visual%20Studio%20Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white" />][chorehelper-demo]
-
-</br>
-</br>
-</br>
-</br>
 
 [non-zero-days-gh-organization]: https://github.com/Non-Zero-Days
 [non-zero-days-gh-pages]: https://non-zero-days.github.io/
