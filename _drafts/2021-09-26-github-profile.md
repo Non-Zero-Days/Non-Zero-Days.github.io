@@ -1,7 +1,7 @@
 ---
 layout: post
 nav_order: 2
-excerpt: Summary
+excerpt: GitHub has a hidden functionality which is a markdown README displayed to your profile page. This exercise walks through setting up a GitHub Profile README.
 youtube_link: https://www.youtube.com/watch?v=8r2WPypJTR0
 ---
 
