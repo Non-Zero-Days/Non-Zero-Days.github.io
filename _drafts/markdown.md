@@ -149,7 +149,7 @@ Let's add an image to the end of our file.
 
 To learn more about `fruit` read [this wikipedia page](https://en.wikipedia.org/wiki/Fruit).
 
-![Pomegranate](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Pomegranate_fruit_-_whole_and_piece_with_arils.jpg/1024px-Pomegranate_fruit_-_whole_and_piece_with_arils.jpg)
+![Non-Zero Logo](https://non-zero-days.github.io/assets/images/logo.png)
 
 ```
 
@@ -195,7 +195,7 @@ The clearly prioritized list
 
 To learn more about `fruit` read [this wikipedia page](https://en.wikipedia.org/wiki/Fruit).
 
-![Pomegranate](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Pomegranate_fruit_-_whole_and_piece_with_arils.jpg/1024px-Pomegranate_fruit_-_whole_and_piece_with_arils.jpg)
+![Non-Zero Logo](https://non-zero-days.github.io/assets/images/logo.png)
 
 ```
 
