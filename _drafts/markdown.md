@@ -98,7 +98,7 @@ The clearly prioritized list
 
 ```
 
-#### Tables
+#### Table
 - Tables can be created as following
 ```md
 | header1  | header2 |
@@ -139,7 +139,7 @@ To learn more about `fruit` read [this wikipedia page](https://en.wikipedia.org/
 
 #### Images
 
-- Images can be linked per the link syntax prefixed with a `!` charcter. e.g. - `![Non-Zero Logo](https://non-zero-days.github.io/assets/images/logo.png)`
+- Images can be linked per the link syntax prefixed with a `!` character. e.g. - `![Non-Zero Logo](https://non-zero-days.github.io/assets/images/logo.png)`
 
 Let's add an image to the end of our file.
 
