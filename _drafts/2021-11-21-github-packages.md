@@ -2,7 +2,7 @@
 layout: post
 nav_order: 2
 excerpt: GitHub Packages allows us to store container images in our GitHub profiles.
-youtube_link: TODO
+youtube_link: https://youtu.be/wtmLFictGgY
 ---
 
 # GitHub Packages
@@ -97,7 +97,7 @@ In the root directory, add a new file named `Dockerfile`.
 Add the following content to the `Dockerfile`
 
 ```dockerfile
-FROM mcr.microsoft.com/dotnet/sdk:6.0.100-rc.2 AS build-env
+FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build-env
 WORKDIR /app
 
 COPY *.csproj ./
@@ -106,7 +106,7 @@ RUN dotnet restore
 COPY . ./
 RUN dotnet publish -c Release -o out
 
-FROM mcr.microsoft.com/dotnet/aspnet:6.0.0-rc.2 as final
+FROM mcr.microsoft.com/dotnet/aspnet:6.0.0 as final
 WORKDIR /app
 COPY --from=build-env /app/out .
 
