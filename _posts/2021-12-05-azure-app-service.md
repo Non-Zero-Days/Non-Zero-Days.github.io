@@ -2,7 +2,7 @@
 layout: post
 nav_order: 2
 excerpt: Azure Web Apps is a platform on which you can host your applications
-youtube_link: TODO
+youtube_link: https://youtu.be/T97a3DdIeKk
 ---
 
 # Azure App Service
