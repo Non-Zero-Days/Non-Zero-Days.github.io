@@ -16,7 +16,7 @@ youtube_link: https://youtu.be/T97a3DdIeKk
 
 ## Loose Agenda
 
-Set up a free Azure Web App instance hosting a Web API image built previously in the [GitHub Packages Exercise](github-packages.md).
+Set up a free Azure Web App instance hosting a Web API image built previously in the [GitHub Packages Exercise](2021-11-21-github-packages.md).
 
 ## Step by Step
 
