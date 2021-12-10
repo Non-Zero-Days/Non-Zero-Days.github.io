@@ -2,7 +2,7 @@
 layout: post
 nav_order: 2
 excerpt: Terraform allows source control of your infrastructure by codifying infrastructure concerns
-youtube_link: TODO
+youtube_link: https://youtu.be/jv9n0fxAWA0
 ---
 
 # Terraform
