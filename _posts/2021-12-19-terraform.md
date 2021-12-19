@@ -141,4 +141,4 @@ Navigate to your deployed WebAPI resource's Swagger page again and call the `/We
 
 - [Terraform Azure Documentation](https://learn.hashicorp.com/collections/terraform/azure-get-started)
 - [Azure App Service Documentation](https://docs.microsoft.com/en-us/azure/app-service/overview)
-- [Azure Free Tier](https://azure.microsoft.com/free)
+- [Azure Free Tier](https://azure.microsoft.com/free) 
